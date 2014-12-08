@@ -5,7 +5,7 @@ gem 'rails', '4.0.5'
 
 group :development do
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3', '1.3.5'
+gem 'sqlite3', '1.3.7'
 
 end
 group :assets do
@@ -37,6 +37,8 @@ group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
 end
+
+gem 'rb-readline'
 
 group :production do
   gem 'pg', '0.12.2'
